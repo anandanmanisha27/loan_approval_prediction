@@ -13,7 +13,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import StandardScaler
 
 # Load dataset
-data = pd.read_csv(r"C:\Users\kanna\Downloads\LoanApprovalPrediction (1).csv")
+data = pd.read_csv("LoanApprovalPrediction.csv")
 
 # Identify categorical columns
 obj_cols = data.select_dtypes(include=['object']).columns.tolist()
